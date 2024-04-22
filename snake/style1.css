@@ -1,0 +1,32 @@
+.container {
+  text-align: center;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background-color: #f0f0f0;
+}
+
+button {
+  font-size: 1em;
+  padding: 10px 20px;
+  cursor: pointer;
+}
